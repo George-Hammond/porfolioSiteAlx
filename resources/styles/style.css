@@ -470,14 +470,17 @@ footer > .footer-copy {
 
     main > .project-section > .project-section-image > .proj >.seperate > .breakdown > h3 {
         margin: 0;
+        margin-left: 11px;
     }
 
     main > .project-section > .project-section-image > .proj >.seperate > .breakdown > h2 {
         margin: 0;
+        margin-left: 11px;
     }
 
     main > .project-section > .project-section-image > .proj >.seperate > .breakdown > p {
         margin: 0;
+        margin-left: 11px;
     }
 
     main > .project-section > .project-section-image > .proj > .proj-section> iframe {
