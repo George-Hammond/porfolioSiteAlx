@@ -324,12 +324,23 @@ footer > .footer-copy {
     margin-bottom: 50px;
 }
 
-@media screen and (max-width: 416px){
+@media screen and (max-width: 415px){
 
     .nav-section {
         margin-bottom: 10px;
-        display: none;
+        /* display: none; */
         width: 360px;
+    }
+
+    .nav-section > .logo > a > img {
+        display: none;
+    }
+
+    .nav-section > nav > ul {
+        width: 360px;
+        padding: 0;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
     main > .about-me-section{
         width: 360px;
@@ -400,9 +411,7 @@ footer > .footer-copy {
         text-align: center;
     }
 
-    main > .skill-section{
-        /* display: none; */                
-        border: 1px solid red;
+    main > .skill-section{               
         width: 360px;
     }
 
@@ -418,6 +427,64 @@ footer > .footer-copy {
     }
 
     main > .project-section{
-        display: none;
+        /* border: 1px solid red; */
+        margin-bottom: 20px;
+        width: 360px;
+        height: 3100px;
+        display: block;
+        /* display: none; */
+    }
+
+    main > .project-section > h2 {
+        font-size: 45px;
+        width: 360px;
+        height: 50px;
+        margin: 0;
+        text-align: center;
+    }
+    main > .project-section > .project-section-image {
+        display: block;        
+        width: 360px;
+    }
+    main > .project-section > .project-section-image > .proj{
+        width: 360px;
+        height: 710px;
+        display:block;
+    }
+
+    main > .project-section > .project-section-image > .proj > .proj-section> a > img {
+        width: 355px;
+        height: 355px;
+    }
+    main > .project-section > .project-section-image > .proj > .seperate {
+        /* border: 5px solid green; */
+        margin: 0;
+        display: block;
+    }
+
+    main > .project-section > .project-section-image > .proj >.seperate > .breakdown {
+        width: 360px;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    main > .project-section > .project-section-image > .proj >.seperate > .breakdown > h3 {
+        margin: 0;
+    }
+
+    main > .project-section > .project-section-image > .proj >.seperate > .breakdown > h2 {
+        margin: 0;
+    }
+
+    main > .project-section > .project-section-image > .proj >.seperate > .breakdown > p {
+        margin: 0;
+    }
+
+    main > .project-section > .project-section-image > .proj > .proj-section> iframe {
+        width: 355px;
+    }
+
+    footer > .footer-copy > p{
+        display: black;
     }
 }
