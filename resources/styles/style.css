@@ -108,10 +108,10 @@ main > .about-me-section > .about-me-image > img{
     border-radius: 250px;
 }
 
-.resume-but {
+main > .about-me-section > .intro-tag-line > .resume-but {
     margin-top: 25px;
 }
-.resume-but > button {    
+main > .about-me-section > .intro-tag-line > .resume-but > button {    
     width: 150px;
     height: 40px;
     border-radius: 5px;
@@ -121,14 +121,14 @@ main > .about-me-section > .about-me-image > img{
     font-family: 'Sacramento', cursive;
 }
 
-.resume-but > a {
+main > .about-me-section > .intro-tag-line> .resume-but > button > a {
     text-decoration: none;
     color: #ffffff;
     font-family: 'Sacramento', cursive;
     font-size: 30px;
 }
 
-.resume-but > a:hover{
+main > .about-me-section > .intro-tag-line> .resume-but > button > a:hover{
     background-color: #59cdff;
     border: none;
     font-weight: bold;      
