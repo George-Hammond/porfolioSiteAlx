@@ -121,14 +121,14 @@ main > .about-me-section > .about-me-image > img{
     font-family: 'Sacramento', cursive;
 }
 
-.resume-but > button > a {
+.resume-but > a {
     text-decoration: none;
     color: #ffffff;
     font-family: 'Sacramento', cursive;
     font-size: 30px;
 }
 
-.resume-but > button > a:hover{
+.resume-but > a:hover{
     background-color: #59cdff;
     border: none;
     font-weight: bold;      
