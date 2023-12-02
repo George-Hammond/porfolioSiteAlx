@@ -121,12 +121,19 @@ main > .about-me-section > .about-me-image > img{
     font-family: 'Sacramento', cursive;
 }
 
-.resume-but > button > a{
+.resume-but > button > a {
     text-decoration: none;
     color: #ffffff;
     font-family: 'Sacramento', cursive;
     font-size: 30px;
 }
+
+.resume-but > button > a:hover{
+    background-color: #59cdff;
+    border: none;
+    font-weight: bold;      
+} 
+
 main > .about-me-section > .intro-tag-line > .getInTouch {
     display: flex;
     justify-content: flex-start;
@@ -152,8 +159,7 @@ main > .about-me-section > .intro-tag-line > .getInTouch > button > a {
 main > .about-me-section > .intro-tag-line > .getInTouch > button:hover{
     background-color: #59cdff;
     border: none;
-    font-weight: bold;
-       
+    font-weight: bold;      
     
 }
 
