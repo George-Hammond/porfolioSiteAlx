@@ -110,26 +110,31 @@ main > .about-me-section > .about-me-image > img{
 
 main > .about-me-section > .intro-tag-line > .resume-but {
     margin-top: 25px;
-}
-main > .about-me-section > .intro-tag-line > .resume-but > button {    
-    width: 150px;
+    margin-left: 93px;
+    width: 250px;
     height: 40px;
+
+}
+
+main > .about-me-section > .intro-tag-line > .resume-but > button {    
     border-radius: 5px;
     border: 1px solid #ffffff;
     color: #ffffff;
     background-color: #2b2b2b;
     font-family: 'Sacramento', cursive;
+    width: 250px;
+    height: 40px;
 }
 
 main > .about-me-section > .intro-tag-line> .resume-but > button > a {
-    text-decoration: none;
+    text-decoration: none;    
     color: #ffffff;
     font-family: 'Sacramento', cursive;
     font-size: 30px;
 }
 
 main > .about-me-section > .intro-tag-line> .resume-but > button > a:hover{
-    background-color: #59cdff;
+    color: #59cdff;
     border: none;
     font-weight: bold;      
 } 
